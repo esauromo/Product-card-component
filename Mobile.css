@@ -1,0 +1,117 @@
+*{
+    font-size: 65.2%;
+}
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100vw;
+    height: auto;
+    background-color: #F2EBE5;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+section {
+    box-sizing: border-box;
+    margin: 108px calc(50% - 170px);
+    display: flex;
+    justify-content: column;
+    width: 343px;
+    height: 611px;
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.150);
+    border-radius: 10px 10px 10px 10px;    
+}
+
+.product-image {
+    width: 343px;
+    height: 240px;
+    background-image: url("./images/image-product-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0 0;  
+}
+
+article {
+    position: absolute;
+    margin: 240px 0;
+    padding: 28px;
+    min-width: 287px;
+    max-height: 320px;
+    background-color: white;
+    color: #83838B;
+    border-radius: 0 0 10px 10px;   
+
+}
+
+h2 {
+    margin-top: 11px;
+    margin-bottom: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem; 
+    line-height: 3.2rem;
+    font-weight: 900;
+    max-width: 280px;
+    text-align: left;
+    color: black;
+}
+
+h3 {
+    margin: 0 0 0 0;
+    font-size: 1.28rem;
+    font-weight: 100;
+    letter-spacing: .4rem;
+    color: #83838B;
+}
+
+p {
+    margin-top: 18px;
+    margin-bottom: 0px;
+    font-size: 1.5rem;
+    line-height: 2.0rem;
+}
+
+.newPrice{
+    font-family: 'Playfair Display', serif;
+    font-size: 3.4rem;
+    font-weight: 900;
+    color: #3F806A;
+}
+
+.oldPrice{
+    margin: 0 0 0 15px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #A0A0A8;
+    text-decoration: line-through;
+}
+
+.card-cta {
+    align-self: center;
+    margin-top: 24px;
+    width: 290px;
+    height: 48px;
+    border-radius: 6px;
+    background-color: #3F806A;
+    border: none;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: white;
+}
+
+.card-cta span {
+    margin: 0 5px;
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    background-image: url("./images/icon-cart.svg");
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+

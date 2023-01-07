@@ -1,0 +1,114 @@
+*{
+    font-size: 65.2%;
+}
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100vw;
+    height: auto;
+    background-color: #F2EBE5;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+section {
+    box-sizing: border-box;
+    margin: 308px calc(50% - 272px);
+    position: relative;
+    display: flex;
+    width: 543px;
+    height: 407px;
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.150);
+    border-radius: 10px 10px 10px 10px;    
+}
+
+.product-image {
+    width: 271px;
+    height: 407px;
+    background-image: url("./images/image-product-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-left: 0;
+    border-radius: 10px 0 0 10px;   
+    }
+
+article {
+    position: absolute;
+    margin-left: 271px;
+    padding: 28px;
+    max-width: 272px;
+    max-height: 351px;
+    background-color: white;
+    color: #83838B;
+    border-radius: 0 10px 10px 0;    
+}
+
+h2 {
+    margin-top: 15px;
+    font-family: 'Playfair Display', serif;
+    line-height: 3rem;
+    font-weight: 900;
+    max-width: 190px;
+    font-size: 2.8rem; 
+    text-align: left;
+    color: black;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: .4rem;
+    color: #83838B;
+}
+
+p {
+    margin-top: 24px;
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+}
+
+.newPrice{
+    font-family: 'Playfair Display', serif;
+    font-size: 3.3rem;
+    font-weight: 900;
+    color: #3F806A;
+}
+
+.oldPrice{
+    margin: 0 0 0 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #A0A0A8;
+    text-decoration: line-through;
+}
+
+.card-cta {
+    margin-top: 24px;
+    width: 212px;
+    height: 43px;
+    border-radius: 6px;
+    background-color: #3F806A;
+    border: none;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: white;
+}
+
+.card-cta span {
+    margin: 0 5px;
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    background-image: url("./images/icon-cart.svg");
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
